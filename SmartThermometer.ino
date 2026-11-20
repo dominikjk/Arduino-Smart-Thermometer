@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL5SFQIga0Y"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME "Smart Cooking Pot Thermometer"
-#define BLYNK_AUTH_TOKEN "GrWlBjYx_UQ25mhJJ4Gmy7epgT5bpdOJ"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
@@ -22,11 +22,9 @@ unsigned long previousMillis = 0;  // Variable to store the previous time
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-//char ssid[] = "SHELL-483758_EXT";  
-//char pass[] = "hkfKvfM3MQhk";  
 
-char ssid[] = "microlab_IoT";
-char pass[] = "shibboleet";
+char ssid[] = "YOUR_WIFI_NAME";
+char pass[] = "YOUR_WIFI_PASSWORD";
 BlynkTimer timer;
 
 void sendTimerDoneEvent() {
