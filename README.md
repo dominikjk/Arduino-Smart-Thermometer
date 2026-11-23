@@ -18,5 +18,3 @@ An Internet of Things project from my Computer Science degree at the University 
 1. Install the Arduino IDE with ESP32 board support, plus the Blynk, OneWire and DallasTemperature libraries.
 2. Create a Blynk template with datastreams V0 (°C), V1 (°F) and V2 (timer, in minutes), and events called `boiling_water` and `timer_done`.
 3. Put your own Blynk template ID, auth token and Wi-Fi details at the top of `SmartThermometer.ino`, then upload it to the board.
-
-The development logbook (`Internet of Things logbook.pdf`) covers how the design changed along the way, including why a planned water-flow sensor was dropped.
